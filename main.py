@@ -1,7 +1,6 @@
 from fastapi import FastAPI,HTTPException,status
 from typing import Optional
 from pydantic import BaseModel
-from bank_of_quotes import collection
 import random
 
 app = FastAPI()
