@@ -45,4 +45,4 @@ def get_item(author:Optional[str] = None):
 
         return matching_quotes[random_number]
     else:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail="No quotes from this author!")
+       return {'quote':'No quotes found!','author':'No author found!'}
